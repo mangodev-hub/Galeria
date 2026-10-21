@@ -1,1 +1,16 @@
 
+.camera-fab {
+  z-index: 10;
+  bottom: calc(56px + env(safe-area-inset-bottom));
+  margin-bottom: 0;
+}
+
+.camera-fab ion-fab-button {
+  --background: var(--ion-color-primary);
+  --background-activated: var(--ion-color-primary-shade);
+  --box-shadow: 0 4px 12px rgb(0 0 0 / 25%);
+}
+
+.camera-fab ion-icon {
+  font-size: 1.8rem;
+}
